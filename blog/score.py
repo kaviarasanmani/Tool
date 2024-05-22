@@ -6,7 +6,6 @@
 
 # # API_KEY = 'YOUR_API_KEY'
 # # CHANNEL_ID = 'YOUR_CHANNEL_ID'
-# API_KEY = 'AIzaSyCzrtDdbPOIyuRZgzRVOZ2k4W1fr4NItjs'
 # # CHANNEL_ID = 'UCk3JZr7eS3pg5AGEvBdEvFg' #village
 # CHANNEL_ID = 'UCX6OQ3DkcsbYNE6H8uQQuVA' #mR BEEST
 # # CHANNEL_ID = 'UCoGForHQAmk0_9rI9CABeYw'  #woody and klewmy
@@ -122,7 +121,7 @@ from googleapiclient.discovery import build
 from transformers import pipeline
 
 # API_KEY and CHANNEL_ID should be set appropriately
-API_KEY = 'AIzaSyCzrtDdbPOIyuRZgzRVOZ2k4W1fr4NItjs'
+API_KEY = ''
 CHANNEL_ID = 'YOUR_CHANNEL_ID'
 
 def initialize_youtube_client(api_key):
